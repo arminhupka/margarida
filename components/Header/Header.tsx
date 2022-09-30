@@ -1,8 +1,9 @@
 import Image from "next/image";
 import { ReactElement } from "react";
-import tw from "tailwind-styled-components";
 import { FaInstagram } from "react-icons/fa";
+import tw from "tailwind-styled-components";
 import { TWLinkButton } from "../Button/Button";
+import { FaPhone } from "react-icons/fa";
 
 const TWTopbar = tw.div<any>`
     py-2
@@ -18,7 +19,7 @@ const TWTopbarContainer = tw.div<any>`
 `;
 
 const TWHeader = tw.header<any>`
-    bg-primary/5
+    bg-dark
 `;
 
 const TWHeaderContainer = tw.div<any>`
@@ -26,9 +27,24 @@ const TWHeaderContainer = tw.div<any>`
     py-4
     flex
     items-center
+    justify-between
     gap-8
+`;
 
-    md:justify-between
+const TWSimpleLink = tw.a<any>`
+    relative
+    p-4
+    inline-flex
+    items-center
+    font-semibold
+    bg-primary
+    uppercase
+    transition-colors
+    cursor-pointer
+    text-lg
+
+    hover:bg-primaryLight
+
 `;
 
 const TWLogoWrapper = tw.div<any>``;
@@ -52,7 +68,12 @@ const Header = (): ReactElement => (
             height={70}
           />
         </TWLogoWrapper>
-        <TWLinkButton href="tel:57730384">Zadzwoń Do nas</TWLinkButton>
+        <TWLinkButton className="hidden md:block" href="tel:57730384">
+          Zadzwoń Do nas
+        </TWLinkButton>
+        <TWSimpleLink href="tel:57730384" className="md:hidden">
+          <FaPhone />
+        </TWSimpleLink>
       </TWHeaderContainer>
     </TWHeader>
   </>

@@ -23,7 +23,6 @@ const HomePage = (): ReactElement => (
     <Services />
     <Gallery />
     <MyAwesomeMap />
-    <Contact />
     <Footer />
   </>
 );

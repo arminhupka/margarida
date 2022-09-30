@@ -16,7 +16,7 @@ const TWMainContainer = tw.div<any>`
 
 const TWCopy = tw.div<any>`
     border-t
-    border-primary
+    border-primary/10
 `;
 
 const TWCopyContainer = tw.div<any>`

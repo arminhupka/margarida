@@ -6,7 +6,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ["Roboto"],
+      sans: ["Jost"],
     },
     extend: {
       colors: {
@@ -23,7 +23,7 @@ module.exports = {
       center: true,
       padding: "24px",
       screens: {
-        lg: "1400px",
+        lg: "1200px",
       },
     },
   },

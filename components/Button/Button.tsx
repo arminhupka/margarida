@@ -22,5 +22,4 @@ export const TWLinkButton = tw.a`
     before:border-black
 
     hover:bg-primaryLight
-
 `;

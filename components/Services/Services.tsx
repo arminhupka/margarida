@@ -85,7 +85,7 @@ const data = [
 const Services = (): ReactElement => (
   <TWServicesWrapper>
     <TWContainer>
-      <SectionTitle title="Co możemy dla Ciebie zrobi" />
+      <SectionTitle title="Co możemy dla Ciebie zrobić" />
       <TWGrid>
         {data.map((item) => (
           <ServiceItem
