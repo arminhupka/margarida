@@ -2,8 +2,8 @@ import { ReactElement } from "react";
 import tw from "tailwind-styled-components";
 import Image from "next/image";
 
-const TWGalleryItemWrapper = tw.div``;
-const TWImageWrapper = tw.div`
+const TWGalleryItemWrapper = tw.div<any>``;
+const TWImageWrapper = tw.div<any>`
     relative
     aspect-square
 `;

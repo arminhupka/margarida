@@ -4,12 +4,12 @@ import tw from "tailwind-styled-components";
 import { FaInstagram } from "react-icons/fa";
 import { TWLinkButton } from "../Button/Button";
 
-const TWTopbar = tw.div`
+const TWTopbar = tw.div<any>`
     py-2
     bg-primary
 `;
 
-const TWTopbarContainer = tw.div`
+const TWTopbarContainer = tw.div<any>`
     container
     flex
     justify-center
@@ -17,11 +17,11 @@ const TWTopbarContainer = tw.div`
     md:justify-start
 `;
 
-const TWHeader = tw.header`
+const TWHeader = tw.header<any>`
     bg-primary/5
 `;
 
-const TWHeaderContainer = tw.div`
+const TWHeaderContainer = tw.div<any>`
     container
     py-4
     flex
@@ -31,7 +31,7 @@ const TWHeaderContainer = tw.div`
     md:justify-between
 `;
 
-const TWLogoWrapper = tw.div``;
+const TWLogoWrapper = tw.div<any>``;
 
 const Header = (): ReactElement => (
   <>

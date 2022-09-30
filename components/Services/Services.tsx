@@ -3,17 +3,17 @@ import tw from "tailwind-styled-components";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import ServiceItem from "./ServiceItem";
 
-const TWServicesWrapper = tw.div`
+const TWServicesWrapper = tw.div<any>`
     py-24
     bg-primaryLight
     border-t
     border-b
     border-primary
 `;
-const TWContainer = tw.div`
+const TWContainer = tw.div<any>`
     container
 `;
-const TWGrid = tw.div`
+const TWGrid = tw.div<any>`
     p-8
     grid
     grid-cols-1
@@ -28,6 +28,7 @@ const data = [
   {
     id: 1,
     title: "Fryzjerstwo damskie",
+    description: "Some description",
     url: "/img/fryzjerstwo.jpeg",
   },
   {

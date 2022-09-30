@@ -1,13 +1,14 @@
 import { ReactElement } from "react";
 import tw from "tailwind-styled-components";
 
-const TWSectionTitleWapper = tw.div`
+const TWSectionTitleWapper = tw.div<any>`
   relative
   mb-8
 `;
 
-const TWTitle = tw.h2<{ light: boolean }>`
-  ${(props: { light: boolean }) => props.light && "text-primary"}
+const TWTitle = tw.h2<{ light?: boolean }>`
+  ${(props: { light?: boolean }) => props.light && "text-primary"}
+  
   relative
   font-prata
   text-4xl
@@ -25,7 +26,7 @@ const TWTitle = tw.h2<{ light: boolean }>`
 
 interface IProps {
   title: string;
-  light: boolean;
+  light?: boolean;
 }
 
 const SectionTitle = ({ title, light }: IProps): ReactElement => (

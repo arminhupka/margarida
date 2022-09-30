@@ -1,25 +1,25 @@
 import { ReactElement } from "react";
 import tw from "tailwind-styled-components";
 
-const TWFooter = tw.footer`
+const TWFooter = tw.footer<any>`
     bg-dark
     text-primary
 `;
 
-const TWMain = tw.div`
+const TWMain = tw.div<any>`
 `;
 
-const TWMainContainer = tw.div`
+const TWMainContainer = tw.div<any>`
     container
     py-4
 `;
 
-const TWCopy = tw.div`
+const TWCopy = tw.div<any>`
     border-t
     border-primary
 `;
 
-const TWCopyContainer = tw.div`
+const TWCopyContainer = tw.div<any>`
     container
     py-2
     text-sm

@@ -3,12 +3,12 @@ import { ReactElement } from "react";
 import tw from "tailwind-styled-components";
 import { TWLinkButton } from "../Button/Button";
 
-const TWHeroWrapper = tw.div`
+const TWHeroWrapper = tw.div<any>`
     relative
     py-24
 `;
 
-const TWImageWrapper = tw.div`
+const TWImageWrapper = tw.div<any>`
   absolute
   top-0
   left-0
@@ -16,7 +16,7 @@ const TWImageWrapper = tw.div`
   h-full
 `;
 
-const TWImageOverlay = tw.div`
+const TWImageOverlay = tw.div<any>`
   absolute
   w-full
   h-full
@@ -26,7 +26,7 @@ const TWImageOverlay = tw.div`
   z-10
 `;
 
-const TWHeroContainer = tw.div`
+const TWHeroContainer = tw.div<any>`
     relative
     container
     h-96
@@ -38,13 +38,13 @@ const TWHeroContainer = tw.div`
     z-20
 `;
 
-const TWTitle = tw.h2`
+const TWTitle = tw.h2<any>`
     font-prata
     text-white
     text-7xl
 `;
 
-const TWDescription = tw.p`
+const TWDescription = tw.p<any>`
     text-white
     text-center
 

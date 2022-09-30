@@ -1,11 +1,11 @@
 import { ReactElement } from "react";
 import tw from "tailwind-styled-components";
 
-const TWAboutWrapper = tw.div`
+const TWAboutWrapper = tw.div<any>`
     py-24
     bg-primary/10
 `;
-const TWContainer = tw.div`
+const TWContainer = tw.div<any>`
     container
     grid
     grid-cols-1

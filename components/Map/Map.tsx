@@ -3,7 +3,7 @@ import tw from "tailwind-styled-components";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import SectionTitle from "../SectionTitle/SectionTitle";
 
-const TWMapWrapper = tw.div`
+const TWMapWrapper = tw.div<any>`
   relative
   py-24
   bg-primary/10
@@ -11,7 +11,7 @@ const TWMapWrapper = tw.div`
 border-primary
 `;
 
-const TWMap = tw.div`
+const TWMap = tw.div<any>`
     bg-red-500
 `;
 

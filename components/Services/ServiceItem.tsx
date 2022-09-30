@@ -2,14 +2,14 @@ import Image from "next/image";
 import { ReactElement } from "react";
 import tw from "tailwind-styled-components";
 
-const TWServiceItemWrapper = tw.div`
+const TWServiceItemWrapper = tw.div<any>`
     group
     relative
     overflow-hidden
     bg-red-750
 `;
 
-const TWImageWrapper = tw.div`
+const TWImageWrapper = tw.div<any>`
     relative
     h-96
     transition
@@ -18,7 +18,7 @@ const TWImageWrapper = tw.div`
     group-hover:scale-105
 `;
 
-const TWDescriptionWrapper = tw.div`
+const TWDescriptionWrapper = tw.div<any>`
   absolute
   w-full
   h-full
@@ -37,7 +37,7 @@ const TWDescriptionWrapper = tw.div`
   group-hover:translate-y-0
 `;
 
-const TWTitleWrapper = tw.div`
+const TWTitleWrapper = tw.div<any>`
     relative
     bottom-0
     py-4
@@ -47,14 +47,14 @@ const TWTitleWrapper = tw.div`
     bg-primary
 `;
 
-const Title = tw.h3`
+const Title = tw.h3<any>`
     font-prata
     text-white
     text-lg
     text-center
 `;
 
-const Description = tw.p`
+const Description = tw.p<any>`
   text-white
   text-center
   opacity-0

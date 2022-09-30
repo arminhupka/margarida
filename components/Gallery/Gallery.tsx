@@ -3,15 +3,15 @@ import tw from "tailwind-styled-components";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import GalleryItem from "./GalleryItem/GalleryItem";
 
-const TWGalleryWrapper = tw.div`
+const TWGalleryWrapper = tw.div<any>`
     py-24
 `;
 
-const TWContainer = tw.div`
+const TWContainer = tw.div<any>`
     container
 `;
 
-const TWGrid = tw.div`
+const TWGrid = tw.div<any>`
     grid
     grid-cols-2
     gap-8
