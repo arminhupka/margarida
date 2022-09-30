@@ -66,6 +66,7 @@ const Header = (): ReactElement => (
             alt="Margarida Salon Logo"
             width={200}
             height={70}
+            priority
           />
         </TWLogoWrapper>
         <TWLinkButton className="hidden md:block" href="tel:57730384">

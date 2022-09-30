@@ -29,12 +29,12 @@ const data = [
     id: 1,
     title: "Fryzjerstwo damskie",
     description: "Some description",
-    url: "/img/fryzjerstwo.jpeg",
+    url: "/img/fryzjerstwo.jpg",
   },
   {
     id: 2,
     title: "Fryzjerstwo męskie",
-    url: "/img/fryzjerstwo_meskie.jpeg",
+    url: "/img/fryzjerstwo_meskie.jpg",
     description:
       "W salonie jest wydzielone specjalne miejsce dla barbera, który zadba o włosy i brodę prawdziwego mężczyzny.",
   },
@@ -43,42 +43,42 @@ const data = [
     title: "Fryzjerstwo okolicznościowe",
     description:
       "Specjalnością salonu są fryzury okolicznościowe wykonywane na miejscu lub z dojazdem do klienta w pakietach ślubnych.",
-    url: "/img/fryzjerstwo_okolicznosciowe.jpeg",
+    url: "/img/fryzjerstwo_okolicznosciowe.jpg",
   },
   {
     id: 4,
     title: "Manicure",
     description:
       "Wykonujemy manicure żelowy, hybrydowy, akrylożel, przedłużanie paznokci. Specjalizujemy się w zdobieniach artystycznych.",
-    url: "/img/manicure.jpeg",
+    url: "/img/manicure.jpg",
   },
   {
     id: 5,
     title: "Pedicure",
     description:
       "Nie tylko ładne, zadbane dłonie, ale i stopy stanowią wizytówkę pięknej kobiety.",
-    url: "/img/pedicure.jpeg",
+    url: "/img/pedicure.jpg",
   },
   {
     id: 6,
     title: "Stylizacja rzęs i brwi",
     description:
       "Dla upiększenia oprawy oczu proponujemy m.in lifting rzęs i hennę brwi.",
-    url: "/img/brwi_i_rzesy.jpeg",
+    url: "/img/brwi_i_rzesy.jpg",
   },
   {
     id: 7,
     title: "Przekłuwanie uszu",
     description:
       "Przekłuwanie uszu wykonujemy jednocześnie na dwie małżowiny uszne, specjalnym bezhukowym urządzeniem. Przekłuwamy również cześć chrzestną ucha i nos.",
-    url: "/img/przekluwanie_uszu.jpeg",
+    url: "/img/przekluwanie_uszu.jpg",
   },
   {
     id: 8,
     title: "Makijaże okolicznosciowe",
     description:
       "Dzięki makijażowi możesz poczuć się wyjątkowo piękna. Oferujemy profesjonalny makijaż, stylizacje wieczorowe i do sesji zdjęciowej.",
-    url: "/img/makijaz_okolicznosciowy.jpeg",
+    url: "/img/makijaz_okolicznosciowy.jpg",
   },
 ];
 
