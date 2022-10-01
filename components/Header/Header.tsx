@@ -69,10 +69,10 @@ const Header = (): ReactElement => (
             priority
           />
         </TWLogoWrapper>
-        <TWLinkButton className="hidden md:block" href="tel:57730384">
+        <TWLinkButton className="hidden md:block" href="tel:577308384">
           Zadzwoń Do nas
         </TWLinkButton>
-        <TWSimpleLink href="tel:57730384" className="md:hidden">
+        <TWSimpleLink href="tel:577308384" className="md:hidden">
           <FaPhone />
         </TWSimpleLink>
       </TWHeaderContainer>

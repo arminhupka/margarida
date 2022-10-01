@@ -54,7 +54,7 @@ const TWDescription = tw.p<any>`
 const Hero = (): ReactElement => (
   <TWHeroWrapper>
     <TWHeroContainer>
-      <TWTitle>Margarida</TWTitle>
+      {/* <TWTitle>Margarida</TWTitle> */}
       {/* <TWDescription>
         W naszym salonie zaopiekujemy się Twoja skórą, włosami oraz paznokciami.
         Salon Margarida to miejsce w którym doświadczenie oraz pasja pozwala
@@ -63,9 +63,9 @@ const Hero = (): ReactElement => (
       {/* <TWLinkButton>Umów się na wizytę</TWLinkButton> */}
     </TWHeroContainer>
     <TWImageWrapper>
-      <TWImageOverlay />
+      {/* <TWImageOverlay /> */}
       <Image
-        src="/img/fryzjerstwo.jpeg"
+        src="/img/hero.jpg"
         alt=""
         layout="fill"
         objectFit="cover"

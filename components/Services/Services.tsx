@@ -29,7 +29,7 @@ const data = [
     id: 1,
     title: "Fryzjerstwo damskie",
     description: "Some description",
-    url: "/img/fryzjerstwo.jpg",
+    url: "/img/fryzjerstwo_2.jpeg",
   },
   {
     id: 2,
