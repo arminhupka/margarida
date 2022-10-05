@@ -16,6 +16,7 @@ const HomePage = (): ReactElement => (
   <>
     <Head>
       <title>Margarida | Salon Kosmetyczny</title>
+        <meta title="description" content="Salon Margarida to wyjątkowe miejsce tworzone z pasją i miłością do podkreślenia urody i naturalnego piękna. W ofercie gabinetu dostępne są zabiegi zarówno dla Pań jak i dla Panów."/>
     </Head>
     <Header />
     <Hero />
