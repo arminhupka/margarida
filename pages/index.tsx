@@ -21,7 +21,6 @@ const HomePage = (): ReactElement => (
     <Hero />
     <About />
     <Services />
-    <Gallery />
     <MyAwesomeMap />
     <Footer />
   </>

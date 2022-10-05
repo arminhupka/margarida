@@ -1,12 +1,12 @@
 import Image from "next/image";
 import { ReactElement } from "react";
-import { FaInstagram } from "react-icons/fa";
+import {FaFacebookF, FaInstagram} from "react-icons/fa";
 import tw from "tailwind-styled-components";
 import { TWLinkButton } from "../Button/Button";
 import { FaPhone } from "react-icons/fa";
 
 const TWTopbar = tw.div<any>`
-    py-2
+    py-4
     bg-primary
 `;
 
@@ -14,6 +14,8 @@ const TWTopbarContainer = tw.div<any>`
     container
     flex
     justify-center
+    items-center
+    space-x-4
 
     md:justify-start
 `;
@@ -53,6 +55,9 @@ const Header = (): ReactElement => (
   <>
     <TWTopbar>
       <TWTopbarContainer>
+        <a href="https://www.facebook.com/malgorzataprzygodamargaridasalon">
+          <FaFacebookF/>
+        </a>
         <a href="https://www.instagram.com/margaridasalon/">
           <FaInstagram />
         </a>
