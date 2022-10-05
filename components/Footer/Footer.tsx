@@ -75,6 +75,16 @@ const Footer = (): ReactElement => (
                   <FiClock/>
               </TWIconWrapper>
               <TWFooterWidgetTitle>Godziny Otwarcia</TWFooterWidgetTitle>
+              <ul className="flex flex-col space-y-4">
+                  <li className="flex flex-col items-center">
+                      <span className="font-medium">Poniedziałek / Piątek</span>
+                      <span>08:00 - 20:00</span>
+                  </li>
+                  <li className="flex flex-col items-center">
+                      <span className="font-medium">Sobota</span>
+                      <span>08:00 - 13:00</span>
+                  </li>
+              </ul>
           </TWFooterWidget>
           <TWFooterWidget>
               <TWIconWrapper>
