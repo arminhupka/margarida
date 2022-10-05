@@ -72,7 +72,7 @@ const About = (): ReactElement => (
         <p>
           Szeroki wachlarz usług z zakresu pielęgnacji włosów oraz stylizacji
           paznokci. Wieloletnie doświadczenie oraz nieustanny rozwój i
-          holistyczne podejście pozwala na profesjonalne obsłuenie klienta.
+          holistyczne podejście pozwala na profesjonalne obsłużenie klienta.
         </p>
       </TWDescription>
     </TWContainer>
