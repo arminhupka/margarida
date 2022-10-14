@@ -8,10 +8,14 @@ const TWImageWrapper = tw.div<any>`
     aspect-square
 `;
 
-const GalleryItem = (): ReactElement => (
+interface IProps {
+    image: string;
+}
+
+const GalleryItem = ({image}: IProps): ReactElement => (
   <TWGalleryItemWrapper>
     <TWImageWrapper>
-      <Image src="/img/manicure.jpeg" alt="manicure" layout="fill" />
+      <Image src={image} alt="Margarida Salon Kosmetyczny" layout="fill" objectFit="cover" objectPosition="center" />
     </TWImageWrapper>
   </TWGalleryItemWrapper>
 );

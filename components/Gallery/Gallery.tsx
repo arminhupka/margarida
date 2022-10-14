@@ -24,14 +24,14 @@ const Gallery = (): ReactElement => (
     <TWContainer>
       <SectionTitle title="Nasze prace" />
       <TWGrid>
-        <GalleryItem />
-        <GalleryItem />
-        <GalleryItem />
-        <GalleryItem />
-        <GalleryItem />
-        <GalleryItem />
-        <GalleryItem />
-        <GalleryItem />
+        <GalleryItem image="/gallery/1.jpeg" />
+        <GalleryItem image="/gallery/2.jpeg" />
+        <GalleryItem image="/gallery/3.jpeg" />
+        <GalleryItem image="/gallery/4.jpeg" />
+        <GalleryItem image="/gallery/5.jpeg" />
+        <GalleryItem image="/gallery/6.jpeg" />
+        <GalleryItem image="/gallery/7.jpeg" />
+        <GalleryItem image="/gallery/8.jpeg" />
       </TWGrid>
     </TWContainer>
   </TWGalleryWrapper>
