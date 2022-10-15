@@ -28,7 +28,7 @@ const data = [
   {
     id: 1,
     title: "Fryzjerstwo damskie",
-    description: "W Salonie Margarida każda klientka może mieć pewność, że zostanie zaopiekowana według najnowszych trendów fryzjerskich. Pracujemy na najwyższej jakości produktach które, są antyalergiczne oraz chronią strukturę włosa i dbają o jego kondycje.",
+    description: "W Salonie Margarida każda klientka może mieć pewność, że zostanie zaopiekowana według najnowszych trendów fryzjerskich. Pracujemy na najwyższej jakości produktach, które są antyalergiczne oraz chronią strukturę włosa i dbają o jego kondycje.",
     url: "/img/fryzjerstwo_2.jpeg",
   },
   {

@@ -94,7 +94,7 @@ const Footer = (): ReactElement => (
               <address>
                   <ul>
                       <li className="flex flex-col items-center">
-                          <span>ul. Tyniecka 13A</span>
+                          <span>ul. Tyniecka 8</span>
                           <span>Żerniki Małe, 55-040</span>
                       </li>
                   </ul>
